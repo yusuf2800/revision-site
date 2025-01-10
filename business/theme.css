@@ -1,0 +1,100 @@
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.952);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#business_content_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.pdf_files {
+  color: rgb(245, 245, 245);
+  padding: 15px;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: rgb(88, 166, 255);
+  width: 350px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+#unit_1_3,
+#unit_1_4,
+#unit_1_5,
+#unit_2_1,
+#unit_2_3,
+#unit_2_4,
+#unit_2_5 {
+  background-color: rgba(255, 88, 88, 0.426);
+}
+=======
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(18, 24, 39, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#business_content_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.pdf_files {
+  color: rgb(245, 245, 245);
+  padding: 15px;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: rgb(88, 166, 255);
+  width: 350px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+#unit_1_3,
+#unit_1_4,
+#unit_1_5,
+#unit_2_1,
+#unit_2_3,
+#unit_2_4,
+#unit_2_5 {
+  background-color: rgba(255, 88, 88, 0.426);
+  cursor: not-allowed;
+}
+>>>>>>> dcb852c (added subjects)
