@@ -40,7 +40,6 @@ body {
   text-align: center;
   align-items: center;
   animation: slideUp 2s ease-in-out, flash 0.9s infinite;
-;
 }
 
 @keyframes flash {
