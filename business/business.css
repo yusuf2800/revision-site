@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  overflow: hidden;
 }
 
 body {
@@ -33,7 +33,6 @@ body {
   text-align: center;
   margin-left: 35px;
   margin-right: 35px;
-  margin-bottom: 35px;
   align-items: center;
   box-shadow: 8px 8px 12px;
   transition: transform 0.7s ease-in-out;
@@ -55,7 +54,7 @@ body {
 
 @keyframes slideUp {
   from {
-    transform: translateY(200px);
+    transform: translateY(150px);
     opacity: 0;
   }
   to {
@@ -66,7 +65,7 @@ body {
 
 @keyframes slideDown {
   from {
-    transform: translateY(-200px);
+    transform: translateY(-150px);
     opacity: 0;
   }
   to {
