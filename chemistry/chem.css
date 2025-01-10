@@ -39,15 +39,13 @@ body {
   transition: transform 0.7s ease-in-out;
 }
 
-#p1{
+#p1 {
   animation: slideUp 2s ease-in-out;
 }
 
-#p2{
+#p2 {
   animation: slideDown 2s ease-in-out;
 }
-
-
 
 .subject_container:hover {
   transform: translateY(-20px);
