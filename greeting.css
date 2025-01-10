@@ -22,18 +22,15 @@ body {
   font-size: 55px;
   font-weight: 700;
   color: rgb(230, 230, 230);
-  animation: slideDown 2s ease-in-out;
   border-right: 4px solid rgb(230, 230, 230);
+  animation: slideDown 2s ease-in-out, blink 1.2s linear infinite;
+  
 }
 
-#GCSE {
-  background: linear-gradient(
-    to right,
-    rgba(88, 171, 255, 0.902),
-    rgba(0, 255, 191, 0.94)
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 #goto_main {
@@ -77,4 +74,17 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+footer {
+  background-color: rgba(28, 34, 49, 255)
+}
+
+footer p {
+  font-size: 15px;
+  color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
