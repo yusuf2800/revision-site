@@ -1,24 +1,24 @@
-const loading = setTimeout(() => {
-  const word = "Learn GCSE content";
-  const wordArray = word.split("");
-  let i = 0;
+const word_traversing = () => {
+  setTimeout(() => {
+    const sentence = "Level-Up Your Grades".split("");
+    const title = document.getElementById("title");
 
-  const timer = setInterval(() => {
-    const titleElement = document.getElementById("title");
+    let i = 0;
 
-    titleElement.textContent += wordArray[i];
-
-    titleElement.style.background =
+    title.style.background =
       "linear-gradient(to right, rgba(88, 171, 255, 0.902), rgba(0, 255, 191, 0.94))";
-    titleElement.style.webkitBackgroundClip = "text";
-    titleElement.style.webkitTextFillColor = "transparent";
+    title.style.backgroundClip = "text";
+    title.style.webkitTextFillColor = "transparent";
 
-    i++;
+    const timer = setInterval(() => {
+      if (i < sentence.length) {
+        title.textContent += sentence[i];
+        i++;
+      } else {
+        clearInterval(timer);
+      }
+    }, 120);
+  }, 1800);
+};
 
-    if (i === wordArray.length) {
-      clearInterval(timer);
-    }
-  }, 120);
-}, 1800);
-
-loading();
+word_traversing();
