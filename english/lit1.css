@@ -18,13 +18,9 @@ body {
 #lit_content_container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-top: 100px;
-}
-
-#every {
-  margin-bottom: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 300px;
 }
 
 .pdf_files {
@@ -34,13 +30,19 @@ body {
   font-size: 30px;
   background-color: rgb(88, 166, 255);
   width: 350px;
+  height: 120px;
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
   font-weight: 600;
-  margin: 10px;
+  margin: 10px; 
   box-shadow: 10px 10px 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
 
 .pdf_files:hover {
   background-color: rgba(88, 166, 255, 0.817);
