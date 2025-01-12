@@ -39,11 +39,11 @@ body {
   transition: transform 0.7s ease-in-out;
 }
 
-#lit, #practice {
+#p1, #resources {
   animation: slideUp 2s ease-in-out;
 }
 
-#lang {
+#p2 {
   animation: slideDown 2s ease-in-out;
 }
 
