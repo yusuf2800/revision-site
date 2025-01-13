@@ -39,3 +39,9 @@ th,
 td {
   border: 3px solid black;
 }
+
+@media (min-width: 1920px) {
+  table {
+    zoom: 1.5;
+  }
+}

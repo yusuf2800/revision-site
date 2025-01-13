@@ -100,3 +100,9 @@ body {
 .button:hover {
   background-color: rgba(88, 166, 255, 0.681);
 }
+
+@media (min-width: 1920px) {
+  .subject_container {
+    zoom: 1.5;
+  }
+}

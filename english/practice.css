@@ -8,6 +8,7 @@
 
 body {
   background-color: rgba(18, 24, 39, 255);
+  margin-bottom: 550px;
 }
 
 #table {
@@ -27,11 +28,12 @@ table {
   color: white;
   text-align: center;
   box-shadow: 8px 8px 12px black;
+  margin-top: 500px;
 }
 
 .head {
   font-weight: 700;
-  width: 125px;
+  width: 145px;
 }
 
 th,
@@ -50,5 +52,11 @@ td {
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media (min-width: 1920px) {
+  #table {
+    zoom: 1.5;
   }
 }

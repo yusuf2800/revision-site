@@ -153,8 +153,8 @@ footer p {
   }
 }
 
-@media (max-width: 1074px) {
-  #date {
-    font-size: 1.875rem;
+@media (min-width: 1920px) {
+  body {
+    zoom: 1.5;
   }
 }

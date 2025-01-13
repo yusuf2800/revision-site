@@ -48,3 +48,8 @@ body {
   background-color: rgba(88, 166, 255, 0.817);
 }
   
+@media (min-width: 1920px) {
+  .pdf_files {
+    zoom: 1.5;
+  }
+}

@@ -21,7 +21,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   height: 300px;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .pdf_files {
@@ -36,15 +36,19 @@ body {
   text-decoration: none;
   text-align: center;
   font-weight: 600;
-  margin: 10px; 
+  margin: 10px;
   box-shadow: 10px 10px 10px black;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
 
 .pdf_files:hover {
   background-color: rgba(88, 166, 255, 0.817);
+}
+
+@media (min-width: 1920px) {
+  .pdf_files {
+    zoom: 1.5;
+  }
 }

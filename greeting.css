@@ -101,3 +101,10 @@ footer p {
     font-size: 25px;
   }
 }
+
+@media (min-width: 1920px) {
+  #title, #goto_main, footer {
+    zoom: 1.5;
+  }
+}
+
