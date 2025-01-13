@@ -86,7 +86,6 @@ footer {
   width: 100vw;
   animation: slideUp 2s ease-in-out;
 }
-
 footer p {
   font-size: 15px;
   color: rgb(230, 230, 230);
@@ -95,7 +94,6 @@ footer p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 @keyframes slideUp {
   from {
     transform: translateY(250px);
@@ -135,6 +133,19 @@ footer p {
   background-color: rgba(88, 166, 255, 0.681);
 }
 
+footer {
+  margin-top: 20px;
+  background-color: rgba(28, 34, 49, 255);
+  width: 100vw;
+}
+footer p {
+  font-size: 15px;
+  color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 @media (max-width: 739px) {
   #date_container {
     width: 300px !important;
@@ -153,8 +164,8 @@ footer p {
   }
 }
 
-@media (min-width: 1920px) {
-  body {
-    zoom: 1.5;
+@media (max-width: 1074px) {
+  #date {
+    font-size: 1.875rem;
   }
 }

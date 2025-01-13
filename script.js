@@ -7,3 +7,4 @@ const weeksUntilExam = Math.floor(daysUntilExam / 7);
 const remainingDays = daysUntilExam % 7;
 
 document.getElementById("date").textContent = `🚨Days until GCSE: ${daysUntilExam}🚨`;
+
