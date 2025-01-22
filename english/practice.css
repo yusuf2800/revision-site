@@ -8,7 +8,6 @@
 
 body {
   background-color: rgba(18, 24, 39, 255);
-  margin-bottom: 550px;
 }
 
 #table {
@@ -24,25 +23,25 @@ table {
   border: 5px solid rgba(0, 0, 0.952);
   border-radius: 10px;
   font-family: "poppins", cursive;
-  font-size: 22px;
+  font-size: 1rem;
   color: white;
   text-align: center;
   box-shadow: 8px 8px 12px black;
-  margin-top: 500px;
 }
 
 .head {
   font-weight: 700;
-  width: 145px;
 }
 
 th,
 td {
-  border: 3px solid black;
-  padding: 4px;
-  padding-top: 10px;
-  padding: 10px;
+  border: 0.188rem solid black;
+  padding: 0.25rem;
+  padding-top: 0.625rem;
+  padding: 1rem;
 }
+
+
 
 @keyframes slideUp {
   from {
@@ -55,8 +54,8 @@ td {
   }
 }
 
-@media (min-width: 1920px) {
-  #table {
-    zoom: 1.5;
+@media (max-width: 40rem) {
+  #feedback {
+    
   }
 }
