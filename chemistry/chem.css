@@ -44,7 +44,11 @@ body {
 }
 
 #p2 {
-  animation: slideDown 2s ease-in-out;
+  animation: slideUp 2s ease-in-out;
+}
+
+#resources {
+  animation: slideUp 2s ease-in-out;
 }
 
 .subject_container:hover {
@@ -62,16 +66,7 @@ body {
   }
 }
 
-@keyframes slideDown {
-  from {
-    transform: translateY(-200px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
+
 
 .text {
   font-size: 35px;
