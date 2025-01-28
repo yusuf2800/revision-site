@@ -54,8 +54,8 @@ td {
   }
 }
 
-@media (max-width: 40rem) {
-  #feedback {
-    
+@media (max-width: 1000px) {
+  #table {
+    margin-left: 500px;
   }
 }

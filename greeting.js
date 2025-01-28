@@ -17,8 +17,8 @@ const word_traversing = () => {
       } else {
         clearInterval(timer);
       }
-    }, 120);
-  }, 1800);
+    }, 105);
+  }, 1450);
 };
 
 word_traversing();

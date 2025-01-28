@@ -1,5 +1,5 @@
 const today = new Date();
-const exam = new Date("2025-05-05");
+const exam = new Date("2025-05-08");
 const timeDifference = exam - today;
 
 const daysUntilExam = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
