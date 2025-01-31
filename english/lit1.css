@@ -9,10 +9,6 @@
 
 body {
   background-color: rgba(18, 24, 39, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 #lit_content_container {
@@ -20,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 300px;
+  height: 100vh;
 }
 
 .pdf_files {
@@ -35,7 +31,7 @@ body {
   text-decoration: none;
   text-align: center;
   font-weight: 600;
-  margin: 10px; 
+  margin-inline: 10px; 
   box-shadow: 10px 10px 10px black;
   display: flex;
   justify-content: center;

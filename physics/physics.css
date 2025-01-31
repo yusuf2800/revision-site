@@ -39,13 +39,10 @@ body {
   transition: transform 0.7s ease-in-out;
 }
 
-#p1, #resources {
+#p1, #p2, #resources {
   animation: slideUp 2s ease-in-out;
 }
 
-#p2 {
-  animation: slideDown 2s ease-in-out;
-}
 
 .subject_container:hover {
   transform: translateY(-1.25rem); /* 20px */
@@ -62,16 +59,6 @@ body {
   }
 }
 
-@keyframes slideDown {
-  from {
-    transform: translateY(-12.5rem); /* 200px */
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 
 .text {
   font-size: 2.1875rem; /* 35px */
@@ -97,10 +84,4 @@ body {
 
 .button:hover {
   background-color: rgba(88, 166, 255, 0.681);
-}
-
-@media (min-width: 1920px) {
-  .subject_container {
-    zoom: 1.5;
-  }
 }

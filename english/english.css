@@ -39,13 +39,10 @@ body {
   transition: transform 0.7s ease-in-out;
 }
 
-#lit, #practice {
+#lit, #lang, #practice {
   animation: slideUp 2s ease-in-out;
 }
 
-#lang {
-  animation: slideDown 2s ease-in-out;
-}
 
 
 
@@ -64,16 +61,6 @@ body {
   }
 }
 
-@keyframes slideDown {
-  from {
-    transform: translateY(-200px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 
 .text {
   font-size: 35px;

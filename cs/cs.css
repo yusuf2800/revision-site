@@ -39,13 +39,11 @@ body {
   transition: transform 0.7s ease-in-out;
 }
 
-#p1, #resources {
+#p1, #p2 {
   animation: slideUp 2s ease-in-out;
 }
 
-#p2 {
-  animation: slideDown 2s ease-in-out;
-}
+
 
 .subject_container:hover {
   transform: translateY(-20px);
@@ -62,16 +60,6 @@ body {
   }
 }
 
-@keyframes slideDown {
-  from {
-    transform: translateY(-200px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 
 .text {
   font-size: 35px;
