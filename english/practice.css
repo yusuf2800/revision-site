@@ -23,7 +23,7 @@ table {
   border: 5px solid rgba(0, 0, 0.952);
   border-radius: 10px;
   font-family: "poppins", cursive;
-  font-size: 1rem;
+  font-size: .9rem;
   color: white;
   text-align: center;
   box-shadow: 8px 8px 12px black;
@@ -41,8 +41,6 @@ td {
   padding: 1rem;
 }
 
-
-
 @keyframes slideUp {
   from {
     transform: translateY(250px);
@@ -56,6 +54,6 @@ td {
 
 @media (max-width: 1000px) {
   #table {
-    margin-left: 500px;
+    display: block;
   }
 }

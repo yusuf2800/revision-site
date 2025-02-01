@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --title-size: 45px;
-  --emoji-size: 55px;
-  --btn-size: 25px;
+  --container-sizes: 200px;
+  --title-size: 35px;
+  --emoji-size: 45px;
+  --btn-size: 18px;
 }
 
 * {
@@ -33,8 +34,7 @@ body {
 }
 
 #date_container {
-  width: 500px;
-  min-width: 250px;
+  width: 350px;
   background-color: rgba(29, 37, 51, 255);
   border-width: 5px;
   border-style: solid;
@@ -42,12 +42,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 50px 20px 50px;
+  margin: 20px 0px 20px 0px;
   box-shadow: 8px 8px 12px;
   text-align: center;
   align-items: center;
   animation: slideUp 2s ease-in-out, flash 0.9s infinite;
-  padding: 30px 15px 30px 15px;
+  padding: 15px 5px 15px 5px;
 }
 
 @keyframes flash {
@@ -61,12 +61,12 @@ body {
 }
 
 #date {
-  font-size: 37px;
+  font-size: 23px;
 }
 
 .subject_container {
-  width: 500px;
-  min-width: 250px;
+  width: 350px;
+  min-width: 300px;
   background-color: rgba(29, 37, 51, 255);
   border-width: 5px;
   border-style: solid;
@@ -77,16 +77,15 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: 8px 8px 12px;
-  margin: 30px 50px 30px 50px;
+  margin: 20px 30px 20px 30px;
   animation: slideUp 2s ease-in-out;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   opacity: 0.9;
-  padding: 45px 45px 50px 45px;
+  padding: 40px 30px 45px 30px;
 }
 
 .subject_container:hover {
   transform: translateY(-10px);
-  transition: transform .5s ease-in-out;
 }
 
 footer {
@@ -99,7 +98,7 @@ footer {
   bottom: 0;
 }
 footer p {
-  font-size: 18px;
+  font-size: 12px;
   color: rgb(230, 230, 230);
   display: flex;
   justify-content: center;
@@ -130,7 +129,7 @@ footer p {
 .button {
   font-size: var(--btn-size);
   font-weight: 700;
-  padding: 7px 75px 7px 75px;
+  padding: 7px 65px 7px 65px;
   background-color: rgba(88, 166, 255, 0.828);
   border-width: 0px;
   border-radius: 5px;
