@@ -35,6 +35,7 @@ body {
 
 #date_container {
   width: 350px;
+  min-width: 280px;
   background-color: rgba(29, 37, 51, 255);
   border-width: 5px;
   border-style: solid;
@@ -42,7 +43,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 0px 20px 0px;
+  margin: 30px 30px 30px 30px;
   box-shadow: 8px 8px 12px;
   text-align: center;
   align-items: center;
@@ -139,4 +140,10 @@ footer p {
 
 .button:hover {
   background-color: rgba(88, 166, 255, 0.681);
+}
+
+@media (max-width: 408px) {
+  #date {
+    font-size: 20px;
+  }
 }
