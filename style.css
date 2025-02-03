@@ -14,9 +14,13 @@
   font-family: "poppins", cursive;
 }
 
+
 body {
   background-color: rgba(18, 24, 39, 255);
   overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
+  margin-bottom: 100px;
 }
 
 #parent {
@@ -24,6 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  min-height: 100%;
 }
 
 .date-parent {
@@ -89,21 +94,6 @@ body {
   transform: translateY(-10px);
 }
 
-footer {
-  margin-top: 55px;
-  background-color: rgba(28, 34, 49, 255);
-  width: 100vw;
-  animation: slideUp 2s ease-in-out;
-  padding: 10px 0px 5px 10px;
-  position: relative;
-  bottom: 0;
-}
-footer p {
-  font-size: 12px;
-  color: rgb(230, 230, 230);
-  display: flex;
-  justify-content: center;
-}
 @keyframes slideUp {
   from {
     transform: translateY(250px);
