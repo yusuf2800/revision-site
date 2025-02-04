@@ -9,6 +9,10 @@
 
 body {
   background-color: rgba(18, 24, 39, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #lit_content_container {
@@ -16,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 100vh;
+  max-height: 100%;
 }
 
 .pdf_files {
@@ -31,13 +35,13 @@ body {
   text-decoration: none;
   text-align: center;
   font-weight: 600;
-  margin: 10px; 
+  margin: 10px;
   box-shadow: 10px 10px 10px black;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 
 
 .pdf_files:hover {
